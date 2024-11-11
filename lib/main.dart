@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moru_wallet_desing/logindetails/signin.dart';
 import 'package:moru_wallet_desing/pages/homepage/homepage.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
