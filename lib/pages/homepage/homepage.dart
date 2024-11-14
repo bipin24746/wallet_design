@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wallet/pages/homepage/containers/header.dart';
+import 'package:wallet/pages/homepage/recharge.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -13,7 +14,7 @@ class HomePage extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          
+          Recharge()
         ],
       ),
     );
