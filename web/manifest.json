@@ -1,6 +1,6 @@
 {
-    "name": "moru_wallet_desing",
-    "short_name": "moru_wallet_desing",
+    "name": "wallet",
+    "short_name": "wallet",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

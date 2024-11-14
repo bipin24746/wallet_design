@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:moru_wallet_desing/logindetails/signin.dart';
+import 'package:wallet/logindetails/signin.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
@@ -135,7 +135,7 @@ class _SignUpState extends State<SignUp> {
               children: [
                 Text(
                   "By creating your account you have to agree with our",
-                  style: TextStyle(fontSize: 12),
+                  style: TextStyle(fontSize: 11),
                 ),
                 Text("Terms and",
                     style: TextStyle(

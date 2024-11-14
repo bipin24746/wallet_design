@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:moru_wallet_desing/logindetails/forgetpassword.dart';
-import 'package:moru_wallet_desing/logindetails/signup.dart';
+import 'package:wallet/logindetails/forgetpassword.dart';
+import 'package:wallet/logindetails/signup.dart';
+
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

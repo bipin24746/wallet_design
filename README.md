@@ -1,4 +1,4 @@
-# moru_wallet_desing
+# wallet
 
 A new Flutter project.
 
