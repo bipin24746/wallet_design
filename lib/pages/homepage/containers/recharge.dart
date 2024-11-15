@@ -32,7 +32,6 @@ class Recharge extends StatelessWidget {
                 DecoratedBox(
                   decoration: BoxDecoration(
                       color: Colors.orange,
-                      border: Border.all(),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
@@ -53,7 +52,6 @@ class Recharge extends StatelessWidget {
                 DecoratedBox(
                   decoration: BoxDecoration(
                       color: Colors.orange,
-                      border: Border.all(),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
@@ -74,7 +72,6 @@ class Recharge extends StatelessWidget {
                 DecoratedBox(
                   decoration: BoxDecoration(
                       color: Colors.orange,
-                      border: Border.all(),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
@@ -95,7 +92,6 @@ class Recharge extends StatelessWidget {
                 DecoratedBox(
                   decoration: BoxDecoration(
                       color: Colors.orange,
-                      border: Border.all(),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
@@ -124,7 +120,6 @@ class Recharge extends StatelessWidget {
                 DecoratedBox(
                   decoration: BoxDecoration(
                       color: Colors.orange,
-                      border: Border.all(),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
@@ -148,7 +143,6 @@ class Recharge extends StatelessWidget {
                   DecoratedBox(
                     decoration: BoxDecoration(
                         color: Colors.orange,
-                        border: Border.all(),
                         borderRadius: BorderRadius.only(
                             topRight: Radius.circular(20),
                             bottomRight: Radius.circular(20))),
@@ -170,7 +164,6 @@ class Recharge extends StatelessWidget {
                 DecoratedBox(
                   decoration: BoxDecoration(
                       color: Colors.orange,
-                      border: Border.all(),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
@@ -191,7 +184,6 @@ class Recharge extends StatelessWidget {
                 DecoratedBox(
                   decoration: BoxDecoration(
                       color: Colors.orange,
-                      border: Border.all(),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),

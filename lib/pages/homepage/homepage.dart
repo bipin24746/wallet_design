@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:wallet/pages/homepage/containers/header.dart';
-import 'package:wallet/pages/homepage/recharge.dart';
+import 'package:wallet/pages/homepage/containers/offerbox.dart';
+import 'package:wallet/pages/homepage/containers/recharge.dart';
+import 'package:wallet/pages/homepage/containers/ticketbooking.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -8,14 +10,24 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Header(),
-          SizedBox(
-            height: 30,
-          ),
-          Recharge()
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Header(),
+            SizedBox(
+              height: 30,
+            ),
+            Recharge(),
+            SizedBox(
+              height: 10,
+            ),
+            OfferBox(),
+            SizedBox(
+              height: 10,
+            ),
+            Tickets()
+          ],
+        ),
       ),
     );
   }
