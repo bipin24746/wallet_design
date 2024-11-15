@@ -13,7 +13,7 @@ class Recharge extends StatelessWidget {
           child: Row(
             children: [
               Text(
-                "Recharge & Bill Payments",
+                "Recharge & Bill Payments are coool",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
               ),
             ],
