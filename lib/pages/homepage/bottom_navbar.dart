@@ -11,8 +11,9 @@ class _BuildBottomNavBarState extends State<BuildBottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.white,
       child: DecoratedBox(
-        decoration: BoxDecoration(border: Border.all()),
+        decoration: BoxDecoration(),
         child: SizedBox(
           height: 70,
           child: Row(
@@ -20,21 +21,24 @@ class _BuildBottomNavBarState extends State<BuildBottomNavBar> {
             children: [
               Icon(
                 Icons.home_outlined,
-                size: 50,
+                size: 40,
+                color: Colors.orange,
               ),
               Icon(
                 Icons.receipt_outlined,
-                size: 50,
+                size: 40,
+                color: Colors.orange,
               ),
               Icon(
                 Icons.house_outlined,
-                size: 50,
+                size: 40,
+                color: Colors.orange,
               ),
               Icon(
                 Icons.more_horiz_outlined,
-                size: 50,
+                size: 40,
+                color: Colors.orange,
               ),
-              
             ],
           ),
         ),
