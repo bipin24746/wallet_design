@@ -33,11 +33,16 @@ class MainScreen extends StatelessWidget {
       bottomNavigationBar: const BuildBottomNavBar(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Define your QR Code button action here
           print('QR Code button pressed');
         },
-        child: const Icon(Icons.qr_code),
+        child: const Icon(
+          Icons.qr_code,
+          color: Colors.orange,
+        ),
+        shape: CircleBorder(),
+        backgroundColor: Colors.white,
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }

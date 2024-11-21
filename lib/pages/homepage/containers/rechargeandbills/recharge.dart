@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet/pages/homepage/containers/rechargeandbills/topup/mobile_topup.dart';
 
 class Recharge extends StatelessWidget {
   const Recharge({super.key});
@@ -25,25 +26,31 @@ class Recharge extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Column(
-              children: [
-                Icon(Icons.mobile_friendly),
-                Text("TopUp"),
-                DecoratedBox(
-                  decoration: BoxDecoration(
-                      color: Colors.orange,
-                      borderRadius: BorderRadius.only(
-                          topRight: Radius.circular(20),
-                          bottomRight: Radius.circular(20))),
-                  child: Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: Text(
-                      "2.2-3.9% Cash",
-                      style: TextStyle(fontSize: 8, color: Colors.white),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => MobileTopup()));
+              },
+              child: Column(
+                children: [
+                  Icon(Icons.mobile_friendly),
+                  Text("TopUp"),
+                  DecoratedBox(
+                    decoration: BoxDecoration(
+                        color: Colors.orange,
+                        borderRadius: BorderRadius.only(
+                            topRight: Radius.circular(20),
+                            bottomRight: Radius.circular(20))),
+                    child: Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: Text(
+                        "2.2-3.9% Cash",
+                        style: TextStyle(fontSize: 8, color: Colors.white),
+                      ),
                     ),
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             ),
             Column(
               children: [

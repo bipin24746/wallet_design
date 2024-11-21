@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wallet/pages/homepage/containers/featuredServices.dart';
 import 'package:wallet/pages/homepage/containers/header.dart';
 import 'package:wallet/pages/homepage/containers/offerbox.dart';
-import 'package:wallet/pages/homepage/containers/recharge.dart';
+import 'package:wallet/pages/homepage/containers/rechargeandbills/recharge.dart';
 import 'package:wallet/pages/homepage/containers/remittance.dart';
 import 'package:wallet/pages/homepage/containers/ticketbooking.dart';
 
