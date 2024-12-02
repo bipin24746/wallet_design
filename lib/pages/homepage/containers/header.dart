@@ -11,8 +11,8 @@ class Header extends StatelessWidget {
           DecoratedBox(
             decoration: BoxDecoration(
                 color: Colors.orange, borderRadius: BorderRadius.circular(20)),
-            child: Padding(
-              padding: const EdgeInsets.only(top: 40.0),
+            child: const Padding(
+              padding: EdgeInsets.only(top: 40.0),
               child: Column(
                 children: [
                   Row(
@@ -21,7 +21,7 @@ class Header extends StatelessWidget {
                       Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(left: 15.0),
+                            padding: EdgeInsets.only(left: 15.0),
                             child: CircleAvatar(
                               backgroundImage: AssetImage(
                                 "lib/assets/smartphones.jpg",
@@ -29,7 +29,7 @@ class Header extends StatelessWidget {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(left: 10.0),
+                            padding: EdgeInsets.only(left: 10.0),
                             child: Text(
                               "Bipin Sainju Shrestha",
                               style: TextStyle(
@@ -42,21 +42,21 @@ class Header extends StatelessWidget {
                       Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(right: 10.0),
+                            padding: EdgeInsets.only(right: 10.0),
                             child: Icon(
                               Icons.search,
                               color: Colors.white,
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(right: 10.0),
+                            padding: EdgeInsets.only(right: 10.0),
                             child: Icon(
                               Icons.notification_add,
                               color: Colors.white,
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(right: 10.0),
+                            padding: EdgeInsets.only(right: 10.0),
                             child: Icon(
                               Icons.headphones,
                               color: Colors.white,
@@ -70,7 +70,7 @@ class Header extends StatelessWidget {
                     height: 10,
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(15.0),
+                    padding: EdgeInsets.all(15.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -81,7 +81,7 @@ class Header extends StatelessWidget {
                               style: TextStyle(color: Colors.white),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(left: 10.0),
+                              padding: EdgeInsets.only(left: 10.0),
                               child: Icon(
                                 Icons.refresh,
                                 size: 15,

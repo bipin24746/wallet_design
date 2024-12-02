@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet/pages/homepage/containers/rechargeandbills/Tv/channels.dart';
 import 'package:wallet/pages/homepage/containers/rechargeandbills/topup/mobile_topup.dart';
 
 class Recharge extends StatelessWidget {
@@ -9,8 +10,8 @@ class Recharge extends StatelessWidget {
     return Container(
         child: Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.only(left: 20.0),
+        const Padding(
+          padding: EdgeInsets.only(left: 20.0),
           child: Row(
             children: [
               Text(
@@ -20,7 +21,7 @@ class Recharge extends StatelessWidget {
             ],
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Row(
@@ -29,9 +30,9 @@ class Recharge extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MobileTopup()));
+                    MaterialPageRoute(builder: (context) => const MobileTopup()));
               },
-              child: Column(
+              child: const Column(
                 children: [
                   Icon(Icons.mobile_friendly),
                   Text("TopUp"),
@@ -42,7 +43,7 @@ class Recharge extends StatelessWidget {
                             topRight: Radius.circular(20),
                             bottomRight: Radius.circular(20))),
                     child: Padding(
-                      padding: const EdgeInsets.all(4.0),
+                      padding: EdgeInsets.all(4.0),
                       child: Text(
                         "2.2-3.9% Cash",
                         style: TextStyle(fontSize: 8, color: Colors.white),
@@ -52,27 +53,33 @@ class Recharge extends StatelessWidget {
                 ],
               ),
             ),
-            Column(
-              children: [
-                Icon(Icons.tv),
-                Text("TV"),
-                DecoratedBox(
-                  decoration: BoxDecoration(
-                      color: Colors.orange,
-                      borderRadius: BorderRadius.only(
-                          topRight: Radius.circular(20),
-                          bottomRight: Radius.circular(20))),
-                  child: Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: Text(
-                      "2.2-3.9% Cash",
-                      style: TextStyle(fontSize: 8, color: Colors.white),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const Channels()));
+              },
+              child: const Column(
+                children: [
+                  Icon(Icons.tv),
+                  Text("TV"),
+                  DecoratedBox(
+                    decoration: BoxDecoration(
+                        color: Colors.orange,
+                        borderRadius: BorderRadius.only(
+                            topRight: Radius.circular(20),
+                            bottomRight: Radius.circular(20))),
+                    child: Padding(
+                      padding: EdgeInsets.all(4.0),
+                      child: Text(
+                        "2.2-3.9% Cash",
+                        style: TextStyle(fontSize: 8, color: Colors.white),
+                      ),
                     ),
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             ),
-            Column(
+            const Column(
               children: [
                 Icon(Icons.network_cell),
                 Text("Internet"),
@@ -83,7 +90,7 @@ class Recharge extends StatelessWidget {
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
                   child: Padding(
-                    padding: const EdgeInsets.all(4.0),
+                    padding: EdgeInsets.all(4.0),
                     child: Text(
                       "2.2-3.9% Cash",
                       style: TextStyle(fontSize: 8, color: Colors.white),
@@ -92,7 +99,7 @@ class Recharge extends StatelessWidget {
                 )
               ],
             ),
-            Column(
+            const Column(
               children: [
                 Icon(Icons.phone),
                 Text("Landline"),
@@ -103,7 +110,7 @@ class Recharge extends StatelessWidget {
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
                   child: Padding(
-                    padding: const EdgeInsets.all(4.0),
+                    padding: EdgeInsets.all(4.0),
                     child: Text(
                       "2.2-3.9% Cash",
                       style: TextStyle(fontSize: 8, color: Colors.white),
@@ -114,10 +121,10 @@ class Recharge extends StatelessWidget {
             )
           ],
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
-        Row(
+        const Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Column(
@@ -131,7 +138,7 @@ class Recharge extends StatelessWidget {
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
                   child: Padding(
-                    padding: const EdgeInsets.all(4.0),
+                    padding: EdgeInsets.all(4.0),
                     child: Text(
                       "2.2-3.9% Cash",
                       style: TextStyle(fontSize: 8, color: Colors.white),
@@ -141,7 +148,7 @@ class Recharge extends StatelessWidget {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.only(bottom: 20.0),
+              padding: EdgeInsets.only(bottom: 20.0),
               child: Column(
                 children: [
                   Icon(Icons.share),
@@ -154,7 +161,7 @@ class Recharge extends StatelessWidget {
                             topRight: Radius.circular(20),
                             bottomRight: Radius.circular(20))),
                     child: Padding(
-                      padding: const EdgeInsets.all(4.0),
+                      padding: EdgeInsets.all(4.0),
                       child: Text(
                         "2.2-3.9% Cash",
                         style: TextStyle(fontSize: 8, color: Colors.white),
@@ -175,7 +182,7 @@ class Recharge extends StatelessWidget {
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
                   child: Padding(
-                    padding: const EdgeInsets.all(4.0),
+                    padding: EdgeInsets.all(4.0),
                     child: Text(
                       "2.2-3.9% Cash",
                       style: TextStyle(fontSize: 8, color: Colors.white),
@@ -195,7 +202,7 @@ class Recharge extends StatelessWidget {
                           topRight: Radius.circular(20),
                           bottomRight: Radius.circular(20))),
                   child: Padding(
-                    padding: const EdgeInsets.all(4.0),
+                    padding: EdgeInsets.all(4.0),
                     child: Text(
                       "2.2-3.9% Cash",
                       style: TextStyle(fontSize: 8, color: Colors.white),

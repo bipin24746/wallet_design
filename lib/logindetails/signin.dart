@@ -18,21 +18,21 @@ class _LoginPageState extends State<LoginPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Padding(
-            padding: const EdgeInsets.only(left: 20),
+          const Padding(
+            padding: EdgeInsets.only(left: 20),
             child: Text(
               "Welcome !",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 20),
+          const Padding(
+            padding: EdgeInsets.only(left: 20),
             child: Text("Sign in your Account"),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           Padding(
@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 hintText: "Mobile Number",
-                prefixIcon: Icon(Icons.numbers),
+                prefixIcon: const Icon(Icons.numbers),
               ),
               keyboardType: TextInputType.number,
             ),
@@ -54,25 +54,25 @@ class _LoginPageState extends State<LoginPage> {
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20)),
-                  prefixIcon: Icon(
+                  prefixIcon: const Icon(
                     Icons.remove_red_eye,
                   ),
                   hintText: "Enter Password"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ForgetPassword()));
+                  MaterialPageRoute(builder: (context) => const ForgetPassword()));
             },
-            child: Column(
+            child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 20),
+                  padding: EdgeInsets.only(left: 20),
                   child: Text(
                     "Forget Password?",
                     style: TextStyle(
@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                       backgroundColor: Colors.blue,
                     ),
                     onPressed: () {},
-                    child: Text(
+                    child: const Text(
                       "Sign In",
                       style: TextStyle(
                           color: Colors.white,
@@ -107,16 +107,16 @@ class _LoginPageState extends State<LoginPage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   "Don't have an account? - ",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 GestureDetector(
                   onTap: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => SignUp()));
+                        MaterialPageRoute(builder: (context) => const SignUp()));
                   },
-                  child: Text(
+                  child: const Text(
                     "Sign Up",
                     style: TextStyle(
                         fontSize: 20,

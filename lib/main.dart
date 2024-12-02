@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -35,12 +36,12 @@ class MainScreen extends StatelessWidget {
         onPressed: () {
           print('QR Code button pressed');
         },
+        shape: const CircleBorder(),
+        backgroundColor: Colors.white,
         child: const Icon(
           Icons.qr_code,
           color: Colors.orange,
         ),
-        shape: CircleBorder(),
-        backgroundColor: Colors.white,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );

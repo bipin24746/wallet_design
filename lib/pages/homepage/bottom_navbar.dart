@@ -12,7 +12,7 @@ class _BuildBottomNavBarState extends State<BuildBottomNavBar> {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
-      child: DecoratedBox(
+      child: const DecoratedBox(
         decoration: BoxDecoration(),
         child: SizedBox(
           height: 70,

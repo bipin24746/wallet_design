@@ -41,11 +41,11 @@ class MobileTopup extends StatelessWidget {
                               child: DecoratedBox(
                                 decoration: BoxDecoration(
                                   border: Border.all(),
-                                  borderRadius: BorderRadius.only(
+                                  borderRadius: const BorderRadius.only(
                                       topLeft: Radius.circular(15),
                                       bottomLeft: Radius.circular(15)),
                                 ),
-                                child: Icon(
+                                child: const Icon(
                                   Icons.flag,
                                   size: 30,
                                 ),
@@ -54,7 +54,7 @@ class MobileTopup extends StatelessWidget {
                           ),
                         ),
                         hintText: "Mobile Number",
-                        suffix: Icon(Icons.contacts),
+                        suffix: const Icon(Icons.contacts),
                       ),
                     ),
                   ),
@@ -66,7 +66,7 @@ class MobileTopup extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Row(
@@ -77,8 +77,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.yellowAccent,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "1.20% Coins",
                         style: TextStyle(fontSize: 10),
@@ -90,8 +90,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.yellowAccent,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "1.50% Coins",
                         style: TextStyle(fontSize: 10),
@@ -103,8 +103,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.yellowAccent,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "2.00% Coins",
                         style: TextStyle(fontSize: 10),
@@ -113,7 +113,7 @@ class MobileTopup extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 5,
               ),
               Row(
@@ -124,8 +124,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.yellowAccent,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "1.00% Cashback",
                         style: TextStyle(fontSize: 10),
@@ -137,8 +137,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.yellowAccent,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "1.00% Cashback",
                         style: TextStyle(fontSize: 10),
@@ -150,8 +150,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.yellowAccent,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "2.00% Cashback",
                         style: TextStyle(fontSize: 10),
@@ -160,7 +160,7 @@ class MobileTopup extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 5,
               ),
               Row(
@@ -171,8 +171,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.grey,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "NTC",
                         style: TextStyle(fontSize: 10),
@@ -184,8 +184,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.grey,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "NCELL",
                         style: TextStyle(fontSize: 10),
@@ -197,8 +197,8 @@ class MobileTopup extends StatelessWidget {
                         color: Colors.grey,
                         border: Border.all(),
                         borderRadius: BorderRadius.circular(15)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 5, 20, 5),
+                    child: const Padding(
+                      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
                       child: Text(
                         "SMART",
                         style: TextStyle(fontSize: 10),
@@ -207,7 +207,7 @@ class MobileTopup extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextField(
@@ -216,7 +216,7 @@ class MobileTopup extends StatelessWidget {
                         borderRadius: BorderRadius.circular(15)),
                     hintText: "Amount"),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 60,
               ),
               SizedBox(
@@ -227,7 +227,7 @@ class MobileTopup extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10))),
                     onPressed: () {},
-                    child: Text(
+                    child: const Text(
                       "PROCEED",
                       style: TextStyle(color: Colors.white),
                     )),

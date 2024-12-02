@@ -15,30 +15,30 @@ class _SignUpState extends State<SignUp> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.all(15.0),
+        padding: const EdgeInsets.all(15.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
+            const Text(
               "Sign Up!",
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
-            Text("Create New Account"),
-            SizedBox(
+            const Text("Create New Account"),
+            const SizedBox(
               height: 10,
             ),
             TextFormField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20)),
-                  prefixIcon: Icon(Icons.numbers),
+                  prefixIcon: const Icon(Icons.numbers),
                   hintText: "Mobile Number"),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text(
@@ -48,7 +48,7 @@ class _SignUpState extends State<SignUp> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             TextFormField(
@@ -57,11 +57,11 @@ class _SignUpState extends State<SignUp> {
                       borderRadius: BorderRadius.circular(20)),
                   hintText: "Full Name"),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
-            Text("Select Gender"),
-            SizedBox(
+            const Text("Select Gender"),
+            const SizedBox(
               height: 10,
             ),
             Row(
@@ -79,13 +79,13 @@ class _SignUpState extends State<SignUp> {
                                 ? Colors.blue
                                 : Colors.black),
                         borderRadius: BorderRadius.circular(5)),
-                    child: Icon(
+                    child: const Icon(
                       Icons.man,
                       size: 40,
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
                 GestureDetector(
@@ -101,7 +101,7 @@ class _SignUpState extends State<SignUp> {
                                 ? Colors.blue
                                 : Colors.black),
                         borderRadius: BorderRadius.circular(5)),
-                    child: Icon(
+                    child: const Icon(
                       Icons.woman,
                       size: 40,
                     ),
@@ -109,29 +109,29 @@ class _SignUpState extends State<SignUp> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             TextFormField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20)),
-                  prefixIcon: Icon(
+                  prefixIcon: const Icon(
                     Icons.remove_red_eye,
                   ),
                   hintText: "Password"),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text(
+            const Text(
               "User 8 or more characters with different letters, numbers & symbols.",
               style: TextStyle(fontSize: 11),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
-            Row(
+            const Row(
               children: [
                 Text(
                   "By creating your account you have to agree with our",
@@ -144,7 +144,7 @@ class _SignUpState extends State<SignUp> {
                         fontWeight: FontWeight.bold))
               ],
             ),
-            Row(
+            const Row(
               children: [
                 Text(
                   "Conditions ",
@@ -163,7 +163,7 @@ class _SignUpState extends State<SignUp> {
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             SizedBox(
@@ -174,26 +174,26 @@ class _SignUpState extends State<SignUp> {
                   ),
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => LoginPage()));
+                        MaterialPageRoute(builder: (context) => const LoginPage()));
                   },
-                  child: Text(
+                  child: const Text(
                     "Create New Account",
                     style: TextStyle(color: Colors.white),
                   )),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Already have an account? - "),
+                const Text("Already have an account? - "),
                 GestureDetector(
                   onTap: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => LoginPage()));
+                        MaterialPageRoute(builder: (context) => const LoginPage()));
                   },
-                  child: Text(
+                  child: const Text(
                     "sign in",
                     style: TextStyle(
                         color: Colors.blue,

@@ -12,7 +12,7 @@ class _OfferBoxState extends State<OfferBox> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 200, // Set the height of the container
       child: Padding(
         padding: const EdgeInsets.all(8.0),
